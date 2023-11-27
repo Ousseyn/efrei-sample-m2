@@ -1,4 +1,4 @@
-package fr.efrei.server.web.rest;
+package fr.efrei.server.web.rest; //Le nom de mon server
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
