@@ -1,0 +1,16 @@
+2023-11-29 11:03:09.552862+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "CREATE TABLE IF NOT EXISTS item ( id INT PRIMARY KEY, name VARCHAR (180), price [*](DECIMAL(10, 2)) )"; attendu "data type"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS item ( id INT PRIMARY KEY, name VARCHAR (180), price [*](DECIMAL(10, 2)) )"; expected "data type"; SQL statement:
+CREATE TABLE IF NOT EXISTS item ( id INT PRIMARY KEY, name VARCHAR (180), price (DECIMAL(10, 2)) ) [42001-224]
+2023-11-29 11:07:05.417911+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "CREATE TABLE IF NOT EXISTS item ( id INT PRIMARY KEY, name VARCHAR (180), price [*](DECIMAL(10, 2)) )"; attendu "data type"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS item ( id INT PRIMARY KEY, name VARCHAR (180), price [*](DECIMAL(10, 2)) )"; expected "data type"; SQL statement:
+CREATE TABLE IF NOT EXISTS item ( id INT PRIMARY KEY, name VARCHAR (180), price (DECIMAL(10, 2)) ) [42001-224]
+2023-11-29 11:08:14.894492+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "CREATE TABLE IF NOT EXISTS item ( id INT PRIMARY KEY, name VARCHAR(180), price [*](DECIMAL(10, 2)) )"; attendu "data type"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS item ( id INT PRIMARY KEY, name VARCHAR(180), price [*](DECIMAL(10, 2)) )"; expected "data type"; SQL statement:
+CREATE TABLE IF NOT EXISTS item ( id INT PRIMARY KEY, name VARCHAR(180), price (DECIMAL(10, 2)) ) [42001-224]
+2023-11-29 11:08:32.023620+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "CREATE TABLE IF NOT EXISTS item ( id INT PRIMARY KEY, name VARCHAR(180), price [*](DECIMAL(10, 2) )"; attendu "data type"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS item ( id INT PRIMARY KEY, name VARCHAR(180), price [*](DECIMAL(10, 2) )"; expected "data type"; SQL statement:
+CREATE TABLE IF NOT EXISTS item ( id INT PRIMARY KEY, name VARCHAR(180), price (DECIMAL(10, 2) ) [42001-224]
