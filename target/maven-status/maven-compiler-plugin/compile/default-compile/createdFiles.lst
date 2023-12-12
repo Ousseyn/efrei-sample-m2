@@ -1,1 +1,4 @@
+fr\efrei\server\service\ItemService.class
+fr\efrei\server\repository\ItemRepository.class
+fr\efrei\server\domain\Item.class
 fr\efrei\server\ServerApplication.class
