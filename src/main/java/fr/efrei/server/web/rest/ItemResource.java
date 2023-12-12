@@ -26,12 +26,7 @@ public class ItemResource {
 
         return itemService.findAll();
     }
-/*
-    public List<Item> getAllItems(){
-        return new ArrayList<>();
-    }
 
- */
     @GetMapping("/items/{id}")
     public Item getItem(@PathVariable String id){
 
